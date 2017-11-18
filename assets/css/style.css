@@ -26,6 +26,8 @@ h2 {
 }
 
 h3 {
+    justify-content: flex-start;
+    white-space: nowrap;
     background-color: #ffffff;
     color: #4aaaaa;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
@@ -40,6 +42,7 @@ form {
 }
 
 #container {
+    padding-right: 20px;
     align-content: space-around;
     display: block;
     max-width: 960;
