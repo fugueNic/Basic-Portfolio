@@ -6,12 +6,15 @@ header {
   height: 200px;
   top: 0;
   left: 0;
+  border-bottom: 5px;
+  border-bottom-color: #cccccc;
 }
 
 body {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     position: relative;
     overflow: auto;
+    color:  #777777;
     background-image: url("assets/images/stonehaven.png");
 }
 
@@ -37,7 +40,7 @@ h3 {
 
 form {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-    width: 25%;
+    width: 650px;
     position: relative; 
 }
 
@@ -48,6 +51,7 @@ form {
     max-width: 960;
     position: absolute;
     top: 340;
+    border-color: #dddddd;
 }
 
 #portfolio {
@@ -97,4 +101,14 @@ h1 {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     width: 25%;
     position: absolute;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #ffffff;
+    align-content: center;
+    border-top: 20px;
+    border-top-color: #4aaaaa;
 }
