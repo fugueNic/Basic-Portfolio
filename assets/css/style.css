@@ -2,7 +2,7 @@ header {
   display: block;
   background-color: #ffffff;
   width: 100%;
-  position: absolute;
+  position: fixed;
   height: 200px;
   top: 0;
   left: 0;
@@ -11,17 +11,8 @@ header {
 body {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     position: relative;
+    overflow: auto;
     background-image: url("assets/images/stonehaven.png");
-}
-
-h1 {
-    float: left;
-    align-content: center;
-    color: #ffffff;
-    background-color: #4aaaaa;
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-    width: 25%;
-    position: relative;
 }
 
 h2 {
@@ -43,7 +34,14 @@ h3 {
     position: relative;
 }
 
+form {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    width: 25%;
+    position: relative; 
+}
+
 #container {
+    align-content: space-around;
     display: block;
     max-width: 960;
     position: absolute;
@@ -89,4 +87,14 @@ h3 {
     float: right;
     position: fixed;
     right: 0;
+}
+
+h1 {
+    left: 0;
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaaa;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    width: 25%;
+    position: relative;
 }
