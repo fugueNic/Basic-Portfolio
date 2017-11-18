@@ -85,16 +85,14 @@ form {
     top: 340;
     width: 270px;
     float: right;
-    position: fixed;
-    right: 0;
+    position: relative;
 }
 
 h1 {
     left: 0;
-    float: left;
     color: #ffffff;
     background-color: #4aaaaa;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     width: 25%;
-    position: relative;
+    position: absolute;
 }
