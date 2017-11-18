@@ -115,7 +115,6 @@ footer {
 form {
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     width: 650px;
-    position: absolute; 
     top: 340;
     height: 450px;
 }
